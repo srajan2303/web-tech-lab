@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+	<title>
+		
+	</title>
+</head>
+
+<body>
+	<h1 style="color: green">
+		Array Methods
+	</h1>
+	
+	
+<p> <h1>Select array method from the given options:</h1>
+    <p id="p"></p>
+		<select id="select1">
+			<option onselect="func(1)">Push</option>
+			<option onselect="func(2)">Pop</option>
+			<option onselect="func(3)">Length</option>
+            <option onselect="func(4)">Shift</option>
+            <option onselect="func(5)">Unshift</option>
+            <option onselect="func(6)">Append</option>
+            <option onselect="func(7)">Concat</option>
+            
+		</select>
+	</p>
+    <script>
+        let numarray=[1,3,90,3,67,5];
+        let array=["abc","xyz"];
+        document.getElementById("p").innerHTML = numarray
+
+        function func(op){
+
+            switch(op){
+                case 1:
+            }
+        }
+
+    </script>
+
+ 
+
+	<!-- <button onclick="getOption()"> Check option </button> -->
+	
+	<!-- <script type="text/javascript">
+	function getOption() {
+		selectElement = document.querySelector('#select1');
+		output = selectElement.value;
+		document.querySelector('.output').textContent = output;
+	}
+	</script> -->
+</body>
+
+</html>
